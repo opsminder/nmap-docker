@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nmap:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: nmap
